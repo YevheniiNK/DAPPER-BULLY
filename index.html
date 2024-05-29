@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style/main.css">
+	<title>Gallry</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+		<a href="#" class="logo"><img src="./images/logo.png" alt="logo" class="logo__img"></a>
+		<nav class="navbar navbar-expand-lg bg-light wp__nav">
+  			<div class="container-fluid container_fluid">
+    			<button class="navbar-toggler bg_navbar_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+      			<span class="navbar-toggler-icon"></span>
+      		</button>	
+   	 		<div class="collapse navbar-collapse header__nav" id="navbarNavAltMarkup">
+      			<div class="navbar-nav header__navbar">
+        				<a class="nav-link" aria-current="page" href="#">Appointment</a>
+        				<a class="nav-link" href="#section__gallery">Gallery</a>
+        				<a class="nav-link" href="#section-services">Services</a>
+        				<a class="nav-link" href="#section-acquaintance">Team</a>
+        				<a class="nav-link" href="#">Reviews</a>
+        				<a class="nav-link" href="#section__contact-us">Contact</a>
+      			</div>
+    			</div>
+  			</div>
+		</nav>
+		</div>
+			<!--
+			<nav class="header__nav">
+				<a href="#">Appointment</a>
+				<a href="#section__gallery">Gallery</a>
+				<a href="#section-services">Services</a>
+				<a href="#section-acquaintance">Team</a>
+				<a href="#">Reviews</a>
+				<a href="#section__contact-us">Contact</a>
+			</nav>-->
+	</header>
+	<main>
+		<div class="section__gallery" id="section__gallery">
+			<div class="container">
+				<div class="section-gallery__wp">
+					<div class="section-gallery__wp__item _item-1">
+						<img src="./images/section-1/photo-left.png" alt="left-photo">
+					</div>
+					<div class="section-gallery__wp__item _item-2">
+						<img src="./images/section-1/photo-midl-1.png" alt="photo-midl-1">
+					</div>
+					<div class="section-gallery__wp__item _item-3">
+						<img src="./images/section-1/photo-midl-2.png" alt="photo-midl-2">
+					</div>
+					<div class="section-gallery__wp__item _item-4">
+						<img src="./images/section-1/photo-right.png" alt="right-photo">
+					</div>
+					<div class="section-gallery__wp__item _item-5">
+						<img src="./images/section-1/photo-midl-4.png" alt="photo-midl-4">
+					</div>
+					<div class="section-gallery__wp__item _item-6">
+						<img src="./images/section-1/photo-midl-3.png" alt="photo-midl-3">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-services" id="section-services">
+			<div class="section-services__content capitalize">
+				<div class="section-services__content__wp">			
+					<div class="section-services__content__item _item-one">
+						<img src="./images/section-2/ellipse_1.png" alt="elipse_1">
+						<p class="section-gallery__item__title">Hair Styling</p>
+					</div>
+					<div class="section-services__content__item _item-two">
+						<img src="./images/section-2/ellipse_2.png" alt="elipse_2">
+						<p class="section-gallery__item__title">Beard Trimming</p>
+					</div>
+					<div class="section-services__content__item _item-three">
+						<img src="./images/section-2/ellipse_3.png" alt="elipse_3">
+						<p class="section-gallery__item__title">Smooth Shave</p>
+					</div>
+					<div class="section-services__content__item _item-four">
+						<img src="./images/section-2/ellipse_5.png" alt="elipse_4">
+						<p class="section-gallery__item__title">Hair Straightening</p>
+					</div>
+				</div>	
+			</div>
+			<div class="section-services__image">
+				<img src="./images/section-2/services_img.png" alt="services">
+			</div>
+		</div>
+		<div class="section-acquaintance" id="section-acquaintance">
+			<div class="container">
+				<div class="section-acquaintance_wp">
+					<h3 class="section-acquaintance__title capitalize">Meet Our Highly Skilled Experts</h3>
+					<div class="section-acquaintance__cards">
+						<div class="section-acquaintance__cards__items">
+							<p class="section-acquaintance__cards__items__name">Meredith</p>
+						</div>
+						<div class="section-acquaintance__cards__items">
+							<p class="section-acquaintance__cards__items__name">Jason</p>
+						</div>
+						<div class="section-acquaintance__cards__items">
+							<p class="section-acquaintance__cards__items__name">Ryan</p>
+						</div>
+						<div class="section-acquaintance__cards__items">
+							<p class="section-acquaintance__cards__items__name">James</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section__contact-us" id="section__contact-us">
+			<div class="section__contact-us__wp">
+				<div class="section__contact-us__form">
+				<h3 class="section__contact-us__form__title">Get in touch with Us and send a Message </h3>
+				<form action="#">
+					<input type="text" class="section__contact-us__form__input" placeholder="Name">
+					<input type="email" class="section__contact-us__form__input" placeholder="Email">
+					<textarea id="section__contact-us__form__masage" name="masage" cols="30" rows="5" placeholder=" Message"></textarea>
+				</form>
+				</div>
+				<div class="section__contact-us__iframe">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351799.159732804!2d30.38213429506503!3d46.45997154095789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1suk!2sua!4v1666247265193!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+			<div class="section__contact-us__footer">
+				<div class="section__contact-us__footer__connection">
+					<p>Email:</p>
+					<a href="mailto:kumarpratiyush1405@gmail.com" id="email">kumarpratiyush1405@gmail.com</a>
+					<p for="phone">Phone:</p>
+					<a href="tel:+(972) 723429834" id="phone">+(972) 723429834</a>
+					<p for="address">Headquarters:</p>
+					<a href="#" id="address">836th Avenue, 3rd Floor,New York.</a>
+				</div>
+				<div class="section__contact-us__footer__opening-hours">
+					<p class="section__contact-us__footer__opening-hours__title">Opening Hours</p>
+					<p class="section__contact-us__footer__opening-hours__text">Monday - Friday : 10:00 am - 05:00 pm</p>
+					<p class="section__contact-us__footer__opening-hours__text">Saturday : 10:00 am - 02:00 pm</p>
+				</div>
+				<div class="section__contact-us__footer__social-link">
+					<p class="section__contact-us__footer__social-link__title">Connect With Us On</p>
+					<div class="section__contact-us__footer__social-links">
+						<a href="#" class="section__contact-us__footer__social-link__item _insta">Instagram</a>
+						<a href="#" class="section__contact-us__footer__social-link__item _facebook">Facebook</a>
+						<a href="#" class="section__contact-us__footer__social-link__item _twitter">Twitter</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
